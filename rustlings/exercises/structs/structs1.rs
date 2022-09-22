@@ -2,8 +2,6 @@
 // Address all the TODOs to make the tests pass!
 // Execute `rustlings hint structs1` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
-
 struct ColorClassicStruct {
     // TODO: Something goes here
     red: u8,
@@ -46,7 +44,7 @@ mod tests {
     #[test]
     fn unit_structs() {
         // TODO: Instantiate a unit-like struct!
-        // let unit_like_struct =
+        let unit_like_struct = UnitLikeStruct;
         let message = format!("{:?}s are fun!", unit_like_struct);
 
         assert_eq!(message, "UnitLikeStructs are fun!");
